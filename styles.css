@@ -12,7 +12,7 @@ body {
 header {
   align-items: center;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 16px;
   border-bottom: 1px solid #E1E1E1;
 }
@@ -25,7 +25,6 @@ header .logo {
 
 .big_title {
   font-weight: 900;
-  /* font-size: 35px; 360px default size */
   font-size: 40px;
   color: #289746;
   line-height: 0;
@@ -33,7 +32,6 @@ header .logo {
 
 .small_title {
   font-weight: 600;
-  /* font-size: 24px; 360px default size */
   font-size: 30px;
   color: #289746;
   line-height: 0;
@@ -42,6 +40,44 @@ header .logo {
 .banner img {
   width: 100%;
   height: auto;
+}
+
+.info_banner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 0;
+}
+
+.info_text {
+  /* text-align: center; */
+}
+.flex_box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.info_title {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 24px 0 16px 2px;
+}
+
+.info_subtitle {
+  font-weight: bold;
+  color: #A5A5A5;
+}
+
+.info_desc {
+  /* font-weight: bold; */
+  color: #5F5F5F;
+}
+
+.info_image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 .content_1 {
