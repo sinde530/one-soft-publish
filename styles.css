@@ -131,6 +131,10 @@ header .logo {
   line-height: 1.4;
 }
 
+.notice_section {
+  padding-bottom: 40px;
+}
+
 .notice_big_text {
   font-size: 24px;
   font-weight: bold;
