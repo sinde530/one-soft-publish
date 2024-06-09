@@ -197,6 +197,7 @@ header .logo {
 .footer_logo_box {
   padding: 20px;
 }
+
 .footer_image_set {
   padding: 20px;
   display: flex;
@@ -205,9 +206,11 @@ header .logo {
 .footer_reserved_box {
   padding: 20px;
 }
+
 .footer_reserved_text {
-  color:#666666;
+  color: #666666;
 }
+
 .footer_flex_box {
   padding-left: 20px;
   display: flex;
@@ -217,4 +220,149 @@ header .logo {
 .footer_logo {
   width: 300px;
   height: 100%;
+}
+
+.faq-section {
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+  padding: 20px;
+}
+
+.faq-section h1 {
+  margin-bottom: 20px;
+}
+
+.faq-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bg-test {
+  background-color: #F7F7F7;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.faq-filters select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #F7F7F7;
+}
+
+.faq-search {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.faq-search input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.faq-search button {
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.faq-list .faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 14px 0;
+}
+
+.faq-list .faq-item .question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-list .faq-item .question span {
+  color: #404040;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.question_text {
+  color: #4CAF50;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.faq-list .faq-item .answer {
+  display: none;
+  margin-top: 10px;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.footer-content {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 720px) {
+  .faq-search input {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-search input {
+    width: 50%;
+  }
+
+  .faq-search button {
+    padding: 8px;
+  }
+
+  .pagination a {
+    padding: 6px 12px;
+  }
+
+  .footer-content p {
+    font-size: 12px;
+  }
 }
