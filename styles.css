@@ -160,6 +160,10 @@ header .logo {
   border-bottom: 1px solid #E1E1E1;
 }
 
+.footer_bg {
+  background-color: #FAFAFA;
+}
+
 .footer_text {
   color: #2B9646;
   font-weight: bold;
