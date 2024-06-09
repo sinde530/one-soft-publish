@@ -9,6 +9,7 @@ body {
   flex-direction: column;
 }
 
+/* Header Css */
 header {
   align-items: center;
   display: flex;
@@ -23,6 +24,7 @@ header .logo {
   height: 100%;
 }
 
+/* index.html CSS */
 .big_title {
   font-weight: 900;
   font-size: 40px;
@@ -151,6 +153,7 @@ header .logo {
   height: 50px;
 }
 
+/* Footer CSS */
 .footer_header_box {
   line-height: 0;
   background-color: #FAFAFA;
@@ -222,6 +225,7 @@ header .logo {
   height: 100%;
 }
 
+/* FAQ CSS */
 .faq-section {
   border-top: 2px solid #ddd;
   padding-top: 20px;
@@ -367,6 +371,7 @@ header .logo {
   }
 }
 
+/* my-profile.html CSS */
 .my_profile_section {
   padding: 20px;
 }
